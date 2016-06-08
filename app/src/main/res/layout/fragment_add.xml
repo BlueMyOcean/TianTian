@@ -1,0 +1,119 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/addfragment"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.jinjiang.computer.tianyi.ui.AddFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+<LinearLayout
+    android:layout_marginTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:orientation="vertical">
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="学 号"
+        android:textColor="@color/colorSkyBlue"
+        android:textSize="22sp"
+        android:textStyle="bold"
+    />
+    <EditText
+        android:textCursorDrawable="@drawable/color_cursor"
+        android:id="@+id/getid"
+        android:layout_marginTop="2sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textColor="@color/colorSkyBlue"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:background="@drawable/edit_sharp"
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="姓 名"
+        android:textColor="@color/colorSkyBlue"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:textCursorDrawable="@drawable/color_cursor"
+        android:id="@+id/getname"
+        android:layout_marginTop="2sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textColor="@color/colorSkyBlue"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:background="@drawable/edit_sharp"
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="性 别"
+        android:textColor="@color/colorSkyBlue"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:textCursorDrawable="@drawable/color_cursor"
+        android:id="@+id/getsex"
+        android:layout_marginTop="2sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorSkyBlue"
+        android:inputType="text"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:background="@drawable/edit_sharp"
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="班 级"
+        android:textColor="@color/colorSkyBlue"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:textCursorDrawable="@drawable/color_cursor"
+        android:id="@+id/getcc"
+        android:layout_marginTop="2sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorSkyBlue"
+        android:background="@drawable/edit_sharp"
+        />
+
+<RelativeLayout
+    android:layout_marginTop="30dp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/blue_button_shape_01"
+            android:text="确 认"
+            android:textSize="20sp"
+            android:textColor="@color/colorWhite"
+            android:id="@+id/submitbutton"
+            />
+</RelativeLayout>
+</LinearLayout>
+
+</FrameLayout>

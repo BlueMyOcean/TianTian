@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jinjiang.computer.tianyi.ui.StatisticFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/piechart"
+        android:layout_width="match_parent"
+        android:layout_height="429dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+<TextView
+    android:id="@+id/totalcount"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="13sp"
+    android:text="共点到：次 共请假：人 共迟到：人 共缺勤：人"
+    />
+</LinearLayout>
+</FrameLayout>

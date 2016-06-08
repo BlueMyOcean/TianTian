@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">天天点到</string>
+    <string name="online">在线使用</string>
+    <string name="offline">离线使用</string>
+    <string name="sorry">抱歉，在线功能暂不提供</string>
+    <string name="filegetbutton">…导入xls</string>
+    <string name="fileoutbutton">数据库导入</string>
+    <string name="lastone">上一个</string>
+    <string name="nextone">下一个</string>
+    <string name="sno">学号</string>
+    <string name="name">姓名</string>
+    <string name="here">已到</string>
+    <string name="leave">请假</string>
+    <string name="absent">缺勤</string>
+    <string name="late">迟到</string>
+    <string name="touchtosearch">点击可以搜索</string>
+    <string name="absentimes">缺席: 次 迟到：次 请假：次</string>
+    <string name="dbcreate">创建数据库</string>
+    <string name="finish">完成</string>
+    <string name="filenameget">请输入Excel文件名:</string>
+    <string name="excelcreate">添加学生</string>
+    <string name="imports">导入文件</string>
+    <string name="sex">性别</string>
+    <string name="classname">班级</string>
+    <string name="back">返回</string>
+    <string name="askforclassname">请输入班级名：</string>
+    <string name="helpinfo">Tips:您可以输入班级或者匹配的学号</string>
+    <string name="menu">菜单选项</string>
+    <string name="change">修改</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="snoorclassname">请根据班级名或学号查找</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

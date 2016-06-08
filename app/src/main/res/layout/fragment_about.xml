@@ -1,0 +1,16 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jinjiang.computer.tianyi.ui.AboutFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="22sp"
+        android:textColor="@color/colorSkyBlue"
+        android:textStyle="bold"
+        android:text="关于：\n本软件免费为老师设计，非商业用途。\n BUG提交：517008718@QQ.COM" />
+
+</FrameLayout>

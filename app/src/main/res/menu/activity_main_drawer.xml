@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/xls_small"
+            android:id="@+id/nav_import"
+            android:title="导入"
+            />
+        <item
+            android:icon="@drawable/sign"
+            android:id="@+id/nav_sign"
+            android:title="点到" />
+        <item
+            android:icon="@drawable/statistics"
+            android:id="@+id/nav_statistics"
+            android:title="统计" />
+        <item
+            android:icon="@drawable/people"
+            android:id="@+id/nav_add"
+            android:title="添加" />
+        <item
+            android:icon="@drawable/diagram"
+            android:id="@+id/nav_about"
+            android:title="关于" />
+        <item
+            android:icon="@drawable/help"
+            android:id="@+id/nav_help"
+            android:title="帮助" />
+    </group>
+
+
+</menu>

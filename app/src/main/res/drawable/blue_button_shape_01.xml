@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+
+
+
+    <solid android:color="@color/colorSkyBlue" />
+
+
+    <corners android:radius="20dp" />
+
+
+    <padding
+        android:bottom="10dp"
+        android:left="10dp"
+        android:right="10dp"
+        android:top="10dp" />
+
+</shape>
+    -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <gradient android:startColor="@color/colorIceBlue" android:endColor="@color/colorIceBlue"
+                android:angle="270" /><code class="comments">//颜色渐变</code>
+
+
+
+            <stroke android:width="1dip" android:color="@color/colorIceBlue" /><code class="comments">//按钮边缘</code>
+
+
+
+            <corners android:radius="10dp" /><code class="comments">//按钮四个圆角</code>
+
+
+
+            <padding android:left="10dp" android:top="10dp"
+                android:right="10dp" android:bottom="10dp" /><code class="comments">//按钮文字和边缘距离(内边距)</code>
+
+
+
+        </shape>
+    </item>
+
+    <item android:state_focused="true">
+        <shape>
+            <gradient android:startColor="@color/colorSkyBlue" android:endColor="@color/colorSkyBlue"
+                android:angle="270" />
+            <stroke android:width="1dip" android:color="@color/colorSkyBlue" />
+            <corners android:radius="10dp" />
+            <padding android:left="10dp" android:top="10dp"
+                android:right="10dp" android:bottom="10dp" />
+        </shape>
+    </item>
+
+    <item>
+        <shape>
+            <gradient android:startColor="@color/colorSkyBlue" android:endColor="@color/colorSkyBlue"
+                android:angle="180" />
+            <stroke android:width="1dip" android:color="@color/colorSkyBlue" />
+            <corners android:radius="10dip" />
+            <padding android:left="10dp" android:top="10dp"
+                android:right="10dp" android:bottom="10dp" />
+        </shape>
+    </item>
+</selector>
